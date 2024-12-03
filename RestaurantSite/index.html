@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Restaurent</title>
+        <!-- AOS CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+        <!-- AOS JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <style>
+      body {
+        background-color: rgb(65, 59, 59);
+      }
+      .head-cont{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      .links {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .hero-sec {
+        max-width: 1300px;
+        min-height: 400px;
+        /* border: 2px solid whitesmoke; */
+        box-shadow: 0px 0px 25px 2px rgba(255, 155, 230, 0.911);
+        margin: auto;
+        background-image: url(https://img.freepik.com/free-photo/barbecue-grilled-beef-steak-meat-with-asparagus-tomato-top-view_2829-16876.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+        background-size: cover;
+        margin-top: 20px;
+        transition: 1s;
+      }
+      .hero-sec:hover {
+        transform: scale(1.035);
+      }
+      span {
+        color: white;
+        font-size: 4rem;
+        position: relative;
+        top: 115px;
+        left: 50px;
+      }
+      p {
+        text-align: center;
+        color: rgb(231, 221, 221);
+        font-size: 20px;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        text-shadow: 0px 0px 5px rgb(144, 27, 155);
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .box {
+        width: 280px;
+        height: 350px;
+        box-shadow: 0px 0px 6px 2px rgba(255, 155, 230, 0.911);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        transition: 1s;
+      }
+      .box:hover {
+        transform: scale(1.055);
+      }
+
+      .inside-box {
+        width: 200px;
+        height: 200px;
+        background-image: url("biryani.jpg"); /* Replace 'biryani.jpg' with your image path */
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        margin: 10px 0;
+        font-size: 20px;
+        color: white;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li {
+        font-size: 16px;
+        color: whitesmoke;
+        margin: 5px 0;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="head-cont">
+      <a class="links" href="#cat-1">Biryani</a>
+      <a class="links" href="#cat-2">Karahi</a>
+      <a class="links" href="#cat-3">Kabab</a>
+      <a class="links" href="#cat-4">BBQ</a>
+    </div>
+    <main>
+      <div class="hero-sec" data-aos="fade-right">
+        <span
+          >Hafiz Hamza <br />
+          Restaurant</span
+        >
+      </div>
+      <h1 data-aos="fade-left">About My Restaurant</h1>
+      <p data-aos="zoom-in">
+        Hafiz Hamza Restaurant is a cozy and welcoming place to eat. It is known
+        for its delicious food and friendly staff. People from all around come
+        to enjoy tasty dishes like biryani, kebabs, and fresh naan. The
+        restaurant is clean and has a nice seating area where families and
+        friends can sit comfortably. The menu has many choices, so everyone can
+        find something they love. They also serve refreshing drinks like
+        lemonade and cold coffee. One special thing about Hafiz Hamza Restaurant
+        is how fresh their food tastes. They use good-quality ingredients, which
+        makes their food even more yummy! If you love trying new and tasty
+        meals, Hafiz Hamza Restaurant is a great place to visit. Whether its
+        lunch or dinner, this restaurant will make you happy with its food and
+        service. Don't forget to bring your family for a delicious treat!
+      </p>
+      <h1 data-aos="fade-left">Hafiz Restaurant Dishes</h1>
+      <div class="container">
+        <div class="box" data-aos="flip-left">
+          <div
+            class="inside-box"
+            style="
+              background-image: url(https://img.freepik.com/premium-photo/close-up-food-table_1048944-1692095.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+              background-size: cover;
+            "
+          ></div>
+          <h3 id="cat-1">Biryani</h3>
+          <ul>
+            <li><a href="Biryani/chicken.html">Chicken Biryani</a></li>
+            <li><a href="Biryani/mutton.html">Mutton Biryani</a></li>
+            <li><a href="Biryani/beef.html">Beef Biryani</a></li>
+            <li><a href="Biryani/veg.html">Veg Biryani</a></li>
+            <li><a href="Biryani/persian.html">Persian Biryani</a></li>
+          </ul>
+        </div>
+        <div class="box" data-aos="flip-right">
+          <div
+            class="inside-box"
+            style="
+              background-image: url(https://img.freepik.com/premium-photo/brain-bheja-fry-goat-sheep-lamb-is-popular-indian-pakistani-dish-cooked-bakra-eid-eid-ul-zuha_466689-47288.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+              background-size: cover;
+            "
+          ></div>
+          <h3 id="cat-2">Karahi</h3>
+          <ul>
+            <li><a href="Karahi/chickenkarahi.html">Chicken Karahi</a></li>
+            <li><a href="Karahi/beefkarahi.html">Beef Karahi</a></li>
+            <li><a href="Karahi/muttonkarahi.html">Mutton Karahi</a></li>
+            <li><a href="Karahi/whitekarahi.html">White Karahi</a></li>
+            <li><a href="Karahi/koilakarahi.html">Koila Karahi</a></li>
+          </ul>
+        </div>
+        <div class="box" data-aos="flip-left">
+          <div
+            class="inside-box"
+            style="
+              background-image: url(https://img.freepik.com/premium-photo/grilled-beef-kebab_1309376-39.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+              background-size: cover;
+            "
+          ></div>
+          <h3 id="cat-3">Kabab</h3>
+          <ul>
+            <li><a href="Kabab/shami.html">Shami Kabab</a></li>
+            <li><a href="Kabab/seekh.html">Seekh Kabab</a></li>
+            <li><a href="Kabab/resha.html">Resha Kabab</a></li>
+            <li><a href="Kabab/yogurt.html">Yogurt Kabab</a></li>
+            <li><a href="Kabab/chapli.html">Chapli Kabab</a></li>
+          </ul>
+        </div>
+        <div class="box" data-aos="flip-right">
+          <div
+            class="inside-box"
+            style="
+              background-image: url(https://img.freepik.com/free-photo/bbq-with-toppings-sausages-dish-open-air_1268-16584.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+              background-size: cover;
+            "
+          ></div>
+          <h3 id="cat-4">BBQ</h3>
+          <ul>
+            <li><a href="BBQ/tikka.html">Chicken Tikka</a></li>
+            <li><a href="BBQ/malai.html">Malai Boti</a></li>
+            <li><a href="BBQ/zinger.html">Zinger Burger</a></li>
+            <li><a href="BBQ/club.html">Club Sandwich</a></li>
+            <li><a href="BBQ/pizza.html">Chicken Pizza</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        easing: 'ease-in-out', // Easing function for the animation
+        once: true, // Animate only once on scroll
+      });
+  </script>
+  </body>
+</html>
