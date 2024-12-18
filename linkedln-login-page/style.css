@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'apple-system,system-ui';
+}
+.logo{
+    position: relative;
+    bottom: 60px;
+}
+.login-container{
+    width: 350px;
+    height: 530px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.btn{
+    width: 304px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+input{
+    width: 304px;
+    height: 52px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    border: 1px solid black;
+}
