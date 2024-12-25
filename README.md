@@ -6,3 +6,6 @@ https://salt-homepage.vercel.app/
 
 Linkedln Login Page Deployment Link
 https://linkedln-login.vercel.app/
+
+Figma Design
+https://figmadesign-gamma.vercel.app/
