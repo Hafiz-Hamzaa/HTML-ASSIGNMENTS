@@ -9,3 +9,6 @@ https://linkedln-login.vercel.app/
 
 Figma Design
 https://figmadesign-gamma.vercel.app/
+
+Landing Page
+https://landing-page-flame-beta.vercel.app/
