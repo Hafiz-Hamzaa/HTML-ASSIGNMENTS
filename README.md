@@ -12,3 +12,6 @@ https://figmadesign-gamma.vercel.app/
 
 Landing Page
 https://landing-page-flame-beta.vercel.app/
+
+Blog Site with Bootstrap
+https://blog-site-six-lovat.vercel.app/
