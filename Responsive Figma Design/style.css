@@ -64,6 +64,7 @@
     .text{
         font-size: 40px;
         text-align: center;
+        margin-left: 20px;
     }
     .text-p{
         font-size: 25px;
@@ -83,15 +84,23 @@
 @media screen and (max-width:700px) {
     .cs-images>.img-1{
         width: 320px;
+        margin-left: 35px;
     }
     .cs-features{
         margin-top: 20px;
     }
     .cs-features>.img-2{
         width: 320px;
+        margin-left: 35px;
     }
     .cs-image>image{
         width: 300px;
+    }
+    .text-p{
+        margin-left: 25px;
+    }
+    .cs-h2{
+        margin-left: 30px;
     }
 }
 .cs-hero-2{
@@ -147,6 +156,7 @@
     }
     .cs-search{
         width: 325px;
+        margin-left: 55px;
     }
     .cs-em{
         font-size: 20px;
