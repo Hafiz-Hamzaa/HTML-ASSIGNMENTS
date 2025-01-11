@@ -1,0 +1,139 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+ul>li{
+    list-style-type: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.text-p{
+    font-size: 23px;
+}
+.text-h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.hero-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.img-1{
+    margin-top: -260px;
+}
+.content{
+    margin-left: 40px;
+} */
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+ul>li{
+    list-style-type: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Hero Section Styling */
+.hero-sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text-p{
+    font-size: 23px;
+}
+.text-h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.img-1{
+    margin-top: -260px;
+    position: relative;
+    right: 20px;
+}
+.img-2{
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+.content{
+    margin-left: 40px;
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .img-0{
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .hero-sec {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .content {
+        margin-left: 0;
+    }
+    .img-1, .img-2 {
+        margin-top: 20px;
+        width: 300px;
+        height: auto;
+        position: relative;
+        left: 1px;
+    }
+    .text-h1 {
+        font-size: 35px;
+    }
+    .text-p {
+        font-size: 18px;
+    }
+}
