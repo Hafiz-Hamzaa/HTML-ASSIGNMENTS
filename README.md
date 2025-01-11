@@ -21,3 +21,6 @@ https://bootstrap-portfolio-delta.vercel.app/
 
 Responsive Figma Design
 https://responsive-design-mauve.vercel.app/
+
+Landing Page
+https://landingpage-flame-theta.vercel.app/
