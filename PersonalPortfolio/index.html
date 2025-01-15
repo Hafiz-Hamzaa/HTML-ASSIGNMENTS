@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link
@@ -12,8 +13,9 @@
     />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg cs-navbar">
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg cs-navbar">
       <div class="container cs-logo">
         <a class="navbar-brand cs-logo" href="#">Portfolio</a>
         <button style="border: 2px solid #0ef;"
@@ -30,19 +32,19 @@
         <div class="collapse navbar-collapse cs-text" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-info" aria-current="page" href="#hero-me">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about-me">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skill-me">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#project-me">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact-me">Contact</a>
               </li>
           </ul>
           <form class="d-flex" role="search">
@@ -60,27 +62,27 @@
       </div>
     </nav>
     <!-- Hero-Section -->
-     <div class="cs-hero">
+     <div class="cs-hero" id="hero-me">
     <div class="container cs-hero-sec">
-        <div class="content">
+        <div class="content" data-aos="fade-down" data-aos-duration="2000">
             <p>Hello Its me <br> <span class="name">Hafiz Hamza</span> <br> And I am a <span class="prof">Web Designer</span></p>
-            <p class="text">I am a student of Web Development and I am making static websites right now in the marketplace <br>and Inshallah I am learning Full Stack Development</p>
+            <p class="text">I am a student of Web Development and I am making static websites right now in the marketplace <br>and I am learning Full Stack Development at Saylani Mass IT Training.</p>
             <a href="https://www.linkedin.com/in/hafiz-hamza-009642289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button class="cs-btn-link">Visit my Linkedln Profile</button></a>
             <a href="https://milestone1-2-mu-gilt.vercel.app/"><button class="cs-btn-link cs-cv">Check my Resume</button></a>
         </div>
-        <div class="cs-profile">
+        <div class="cs-profile" data-aos="flip-left" data-aos-duration="2000">
             <img src="assets/yellow-profile.jpeg" alt="Trapezium Image" class="trapezium-img">
         </div>
     </div>
     </div>
 
     <!-- About-Section -->
-    <div class="cs-about">
+    <div class="cs-about" id="about-me">
       <div class="container cs-about-sec">
-        <div class="cs-profile">
+        <div class="cs-profile" data-aos="flip-right" data-aos-duration="3000">
           <img src="assets/yellow-profile.jpeg" alt="Trapezium Image" class="Trapezium-img">
         </div>
-          <div class="Content">
+          <div class="Content" data-aos="fade-up" data-aos-duration="2000">
             <h1>About <span class="about">Me</span> <br> Web Designer!</h1>
             <p class="about-txt">I am Hamza and I am a student of Secod year at D.J College Right Now I am currently enrolled in Saylani IT Training <br> which I learned Full Stack Development and Alhamdolillah I have very closed to complete the Module 1 which I learned Html,CSS,Bootstrap and Tailwind CSS I have making many static websites and I have also a earn certficate from Free Code <br> Camp and completed all tasks and projects whic is given by freecodecamp organizatio</p>
             <a href="https://milestone5-fawn-omega.vercel.app/"><button class="cs-btn-link">Download CV</button></a>
@@ -89,30 +91,125 @@
       </div>
 
       <!-- Skills Section -->
-    <div class="Skill-Sec">
-    <h1 class="skill-hd">Our <span class="sp-skill">Skills</span></h1>
+    <div class="Skill-Sec" id="skill-me">
+    <h1 class="skill-hd" data-aos="fade-up" data-aos-duration="2000">Our <span class="sp-skill">Skills</span></h1>
     <div class="skill-sec">
-      <div class="box">
+      <div class="box" data-aos="flip-left" data-aos-duration="2000">
         <i class='bx bxl-html5 icon'></i>
         <h2 class="cs-skill">HTML</h2>
         <p class="skill-intro">The standard markup language for creating the structure and content of web pages. It uses tags to define elements like headings, paragraphs, images, and links.</p>
         <button class="skill-btn">Read More</button>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-down" data-aos-duration="2000">
         <i class='bx bxl-css3 icon'></i>
         <h2 class="cs-skill">CSS</h2>
         <p class="skill-intro">A style sheet language used to describe the presentation of a document written in a markup language
           like HTML. It controls the visual appearance of elements on a web.</p>
-          <button class="skill-btn">Read More</button>
+          <button class="skill-btn" style="position: relative; bottom: 18px;">Read More</button>
       </div>
-      <div class="box">
+      <div class="box" data-aos="zoom-in" data-aos-duration="2000">
         <i class='bx bxl-bootstrap icon'></i>
         <H2 class="cs-skill">Bootsrtap</H2>
         <p class="skill-intro">A free and open-source front-end framework for designing responsive and mobile-first websites. It provides pre-built HTML, CSS, and JavaScript components.</p>
         <button class="skill-btn">Read More</button>
       </div>
+      <div class="box" data-aos="zoom-out" data-aos-duration="2000">
+        <i class='bx bxl-tailwind-css icon'></i>
+        <H2 class="cs-skill">Tailwind CSS</H2>
+        <p class="skill-intro">Tailwind CSS is a utility-first CSS framework that provides a vast collection of pre-built classes for styling HTML elements directly within your markup.</p>
+        <button class="skill-btn">Read More</button>
+      </div>
     </div>
   </div>
+
+  <!-- Project Section -->
+   <div class="project" id="project-me">
+    <h1 class="skill-hd project-man"  data-aos="fade-up" data-aos-duration="2000">Latest <span class="sp-skill">Projects</span></h1>
+  <div class="container pro-sec">
+    <div class="card cs-card"  data-aos="flip-right" data-aos-duration="2000" data-delay="1000" style="width: 18rem;" >
+      <img src="https://tse4.mm.bing.net/th?id=OIP.zJ56fxZnSrg7Tc_oL6MTOQHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">E-Commerce Website</h4>
+        <a href="https://ecommercewebsite-murex.vercel.app/"  style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+    <div class="card cs-card" data-aos="zoom-in" data-aos-duration="2000" data-delay="1000" style="width: 18rem;">
+      <img src="https://img.freepik.com/premium-photo/closeup-resume-paper-with-qualifications-desk-interview-enthusiastic_31965-186590.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">Shoe Website</h4>
+        <a href="https://shoe-website-psi.vercel.app/"  style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+    <div class="card cs-card" data-aos="flip-left" data-aos-duration="2000" data-delay="1000" style="width: 18rem;">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.TVCzYUdRFU77EYPzg7TJUgHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">Responsive Portfolio</h4>
+        <a href="https://bootstrap-portfolio-delta.vercel.app/" style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+    <div class="card cs-card" data-aos="zoom-out" data-aos-duration="2000" data-delay="1000" style="width: 18rem;">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.nP5EkJzvfTJxjbf6Jmu9rwAAAA&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">UI-UX Design</h4>
+        <a href="https://ui-ux-hackathon--zeta.vercel.app/"  style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+    <div class="card cs-card" data-aos="fade-down" data-aos-duration="2000" data-delay="1000" style="width: 18rem;">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.B-_2sXzuvpknpC-tz0FhVgHaE8&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">Blog Site</h4>
+        <a href="https://blog-site-six-lovat.vercel.app/"  style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+    <div class="card cs-card" data-aos="fade-up" data-aos-duration="2000" data-delay="1000" style="width: 18rem;">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CUYN0VuLkIZZ6LQZ9tXBvQHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">Basic Portfolio</h4>
+        <a href="https://basic-portfolio-lilac.vercel.app/"  style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+    <div class="card cs-card" data-aos="zoom-in" data-aos-duration="2000" data-delay="1000" style="width: 18rem;">
+      <img style="height: 190px;" src="https://tse3.mm.bing.net/th?id=OIP.qZgWlgF6zM2teiD-DskCCQHaEK&pid=Api&P=0&h=220" class="card-img-top" alt="...">
+      <div class="card-body cs-body-card">
+        <h4 class="card-text text-light text-center">Figma Design</h4>
+        <a href="https://responsive-figma-design.vercel.app/"  style="text-decoration: none;"><button class="pro-btn">View my Project</button></a>
+      </div>
+    </div>
+  </div>
+  </div> 
+
+  <!-- Contact Sec -->
+  <div class="contact-sec" id="contact-me">
+  <h1 class="skill-hd"  data-aos="fade-right" data-aos-duration="2000">Contact <span class="sp-skill">Me!</span></h1>
+  <div class="input-1"  data-aos="fade-up" data-aos-duration="2000">
+      <input type="text" placeholder="First Name" class="search-1">
+      <input type="text"  placeholder="Last Name" class="search-1">
+    </div>
+    <div class="input-2"  data-aos="fade-up" data-aos-duration="2000">
+      <input type="text" placeholder="Email Address" class="search-2">
+      <input type="text" placeholder="Contact Number" class="search-2">
+    </div>
+    <div class="feedback"  data-aos="zoom-in" data-aos-duration="2000">
+    <textarea rows="6" cols="93.5" placeholder="Your Message"></textarea>
+  </div> 
+  <!-- Footer Sec -->
+  <div class="container">
+    <footer class="py-3 my-4"  data-aos="flip-left" data-aos-duration="2000">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+      </ul>
+      <p class="text-center text-light">© 2024 Company, Inc</p>
+    </footer>
+  </div>
+  </div> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(); 
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
